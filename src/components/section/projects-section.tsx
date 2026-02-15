@@ -23,9 +23,9 @@ export default function ProjectsSection() {
                         />
                     </div>
                     <div className="flex flex-col gap-y-3 items-center justify-center">
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Check out my latest work</h2>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Check my latest projects</h2>
                         <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance text-center">
-                            I&apos;ve Worked on generative AI projects, experimenting with LLMs, multimodal AI, and building smart applications.
+                            I&apos;ve Worked on generative AI projects, experimenting with LLMs, multimodal AI,and building smart applications.
                         </p>
                     </div>
                 </div>

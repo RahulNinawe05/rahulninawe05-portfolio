@@ -53,8 +53,9 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <a
                     href={social.url}
-                    target={isExternal ? "_blank" : undefined}
-                    rel={isExternal ? "noopener noreferrer" : undefined}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full h-full"
                   >
                     <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
                       <IconComponent className="size-full rounded-sm overflow-hidden object-contain" />
@@ -71,7 +72,7 @@ export default function Navbar() {
                 </TooltipContent>
               </Tooltip>
             );
-          })}
+          })} 
         <Separator
           orientation="vertical"
           className="h-2/3 m-auto w-px bg-border"
