@@ -19,10 +19,10 @@ export const DATA = {
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
-    "AI Engineering Student. I love building AI tools and learning Generative AI.",
+    "Building with generative AI, LLMs, and multimodal AI to solve real-world problems.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "",
+    "I’m passionate about building intelligent applications and exploring the potential of large language models and multimodal AI. I love solving real-world problems, experimenting with cutting-edge AI technologies, and creating solutions that make an impact.",
+  avatarUrl: "/me.png",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
