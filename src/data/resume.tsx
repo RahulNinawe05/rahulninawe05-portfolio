@@ -66,6 +66,7 @@ export const DATA = {
   {
   title: "Next Word Prediction using LSTM",
   href: "https://github.com/RahulNinawe05/GenFlow-.git",
+  dates: "May 2025 - July 2025",
   active: true,
   description:
     "Developed an LSTM-based deep learning model to predict the next word in a sentence. Built an interactive Streamlit app that loads a trained model and tokenizer to perform real-time text predictions.",
