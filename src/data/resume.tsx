@@ -64,29 +64,28 @@ export const DATA = {
   },
   projects: [
   {
-    title: "Multi-Agent AI System (LangGraph)",
-    href: "https://github.com/RahulNinawe05/langgraph-multi-agent",
-    dates: "Jan 2025 - Feb 2025",
-    active: true,
-    description:
-      "Built a multi-agent AI system using LangGraph where agents collaborate to plan, reason, and execute tasks. Implemented tool calling, memory, and state-based workflows.",
-    technologies: [
-      "Python",
-      "LangGraph",
-      "LangChain",
-      "OpenAI / Groq LLMs",
-      "FastAPI",
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/RahulNinawe05/langgraph-multi-agent",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
+  title: "Next Word Prediction using LSTM",
+  href: "https://github.com/RahulNinawe05/GenFlow-.git",
+  active: true,
+  description:
+    "Developed an LSTM-based deep learning model to predict the next word in a sentence. Built an interactive Streamlit app that loads a trained model and tokenizer to perform real-time text predictions.",
+  technologies: [
+    "Python",
+    "TensorFlow / Keras",
+    "LSTM",
+    "NumPy",
+    "Streamlit",
+    "NLP",
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/RahulNinawe05/GenFlow-.git",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
     image: "",
   },
-
   {
     title: "RAG-based AI Chatbot",
     href: "https://github.com/RahulNinawe05/rag-chatbot",
