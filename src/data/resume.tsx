@@ -64,7 +64,7 @@ export const DATA = {
   },
   projects: [
   {
-  title: "Next Word Prediction using LSTM",
+  title: "Next Word Prediction",
   href: "https://github.com/RahulNinawe05/GenFlow-.git",
   dates: "May 2025 - July 2025",
   active: true,
@@ -88,74 +88,52 @@ export const DATA = {
     image: "",
   },
   {
-    title: "RAG-based AI Chatbot",
-    href: "https://github.com/RahulNinawe05/rag-chatbot",
-    dates: "Dec 2024 - Jan 2025",
-    active: true,
-    description:
-      "Developed a Retrieval-Augmented Generation (RAG) chatbot that answers questions from PDFs using vector search and LLM reasoning.",
-    technologies: [
-      "Python",
-      "LangChain",
-      "FAISS / ChromaDB",
-      "OpenAI / HuggingFace",
-      "Streamlit",
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/RahulNinawe05/rag-chatbot",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
+  title: "RAG Q&A Chatbot with PDF & Chat History",
+  href: "https://github.com/RahulNinawe05/Chatbot",
+  dates: "Jun 2025 - July 2025",
+  active: true,
+  description:
+    "Built a conversational RAG-based Q&A chatbot that allows users to upload PDFs and ask context-aware questions. Implemented chat history memory, history-aware retrieval, and semantic search using embeddings and FAISS for accurate responses.",
+  technologies: [
+    "Python",
+    "LangChain",
+    "RAG (Retrieval-Augmented Generation)",
+    "FAISS",
+    "HuggingFace Embeddings",
+    "Groq LLM (LLaMA 3.1)",
+    "Streamlit",
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/RahulNinawe05/Chatbot",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
     image: "",
   },
-
   {
-    title: "AI Customer Support Chatbot",
-    href: "https://github.com/RahulNinawe05/ai-support-bot",
-    dates: "Nov 2024 - Dec 2024",
-    active: true,
-    description:
-      "Built an AI-powered customer support chatbot that automatically resolves queries using LLMs, conversation memory, and tool calling.",
-    technologies: [
-      "Python",
-      "LangChain",
-      "LLMs (GPT / LLaMA)",
-      "FastAPI",
-      "PostgreSQL",
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/RahulNinawe05/ai-support-bot",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
-    image: "",
-  },
-
-  {
-    title: "MCP-based AI Tool Integration",
-    href: "https://github.com/RahulNinawe05/mcp-ai-tools",
-    dates: "Feb 2025 - Present",
-    active: true,
-    description:
-      "Implemented Model Context Protocol (MCP) to connect LLMs with external tools, APIs, and databases in a secure and scalable way.",
-    technologies: [
-      "Python",
-      "MCP",
-      "LLMs",
-      "FastAPI",
-      "Docker",
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/RahulNinawe05/mcp-ai-tools",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
+  title: "AI Vision & Voice Assistant",
+  href: "https://github.com/RahulNinawe05/AI_Voice_bot",
+  dates: "Dec 2025 - Jan 2026",
+  active: true,
+  description:
+    "Built a multi-modal AI assistant that takes voice input and images, transcribes speech, analyzes visual content, and responds with concise answers. Integrated Groq LLM for reasoning, Whisper for speech-to-text, and gTTS for text-to-speech, enabling interactive voice and visual interactions.",
+  technologies: [
+    "Python",
+    "Gradio",
+    "Groq LLM (LLaMA 4 Maverick)",
+    "Whisper STT",
+    "gTTS (Text-to-Speech)",
+    "Base64 Image Encoding",
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/RahulNinawe05/AI_Voice_bot",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
     image: "",
   },
 ],
